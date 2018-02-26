@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import Card from "./Card";
 import './Services.css';
+import nodejsLogo from './../images/nodejs.svg'
+import ethereumLogo from './../images/ethereum.svg'
+import reactLogo from './../images/react.svg'
 
 const card1 = {
     subTitle: 'Blockchain',
     title: 'Ethereum Development',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg',
+    image: ethereumLogo,
     content: 'Wheather you want to launch an ICO or a platform which uses blockchain technology. We can help you.' +
     'Moving into decentralization can be scary and the possibilities can be unclear. We can help you with what is possible and what is not' +
         'and maybe more importantly we can build it!'
@@ -14,7 +17,7 @@ const card1 = {
 const card2 = {
     subTitle: 'Consultancy',
     title: 'Backend Development',
-    image: 'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/landscape/nodejslogo.png',
+    image: nodejsLogo,
     content: 'We have extensive experience with Java & NodeJs. We can make make the beating heart for your application'
 };
 

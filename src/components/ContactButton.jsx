@@ -18,12 +18,12 @@ class ContactButton extends Component {
                     </defs>
                 </svg>
 
-                <a href="mailto:nick@ab-it.io" target="_blank" className="contact-button">
+                <a href={this.props.data.link} target="_blank" className="contact-button">
                     Contact
                     <svg className="icon icon-paperplane">
                         <use xlinkHref="#icon-paperplane"/>
                     </svg>
-                    <span>nick@ab-it.io</span>
+                    <span>{this.props.data.covered}</span>
                 </a>
             </div>
         )

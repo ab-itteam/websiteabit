@@ -32,7 +32,6 @@ class Guy extends Component {
                         </div>
                         <div className="face">
                             <div className="hair-bottom"></div>
-                            <div className="nose"></div>
                             <div className="eye-shadow" id="left">
                                 <div className="eyebrow"></div>
                                 <div className="eye"></div>
@@ -42,9 +41,6 @@ class Guy extends Component {
                                 <div className="eye"></div>
                             </div>
                             <div className="mouth"></div>
-                            <div className="shadow-wrapper">
-                                <div className="shadow"></div>
-                            </div>
                         </div>
                     </div>
                     <span className="music-note" id="one">&#9733;</span>
