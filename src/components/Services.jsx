@@ -24,7 +24,7 @@ const card2 = {
 const card3 = {
     subTitle: 'Consultancy',
     title: 'Front-End Development',
-    image: 'https://cdn-images-1.medium.com/max/512/0*QKJemZKR6vA6hMAj.png',
+    image: reactLogo,
     content: 'In the 80s people used computers with text commands, nowadays people want a nice graphical experience. We can build this for your application'
 };
 
