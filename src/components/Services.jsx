@@ -28,7 +28,7 @@ const card3 = {
 class Services extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="servicesContainer">
                 <Card data={card1}/>
                 <Card data={card2}/>
                 <Card data={card3}/>

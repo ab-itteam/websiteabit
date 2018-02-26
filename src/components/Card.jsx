@@ -10,7 +10,7 @@ class Card extends Component {
     render() {
         return (
             <div>
-                    <div className="card-container">
+                    <div className="cardContainer">
                         <div className="card">
                             <div className="front">
                                 <h2 className="sub-title">{this.props.data.subTitle}</h2>

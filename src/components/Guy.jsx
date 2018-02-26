@@ -9,47 +9,47 @@ class Guy extends Component {
 
     render() {
         return (
-                <div class="wrapper" onClick={ () => {window.open("https://www.linkedin.com/in/meiremans/", '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')}}>
+                <div className="wrapper" onClick={ () => {window.open("https://www.linkedin.com/in/meiremans/", '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')}}>
 
-                    <div class="border-circle" id="one"></div>
-                    <div class="border-circle" id="two"></div>
-                    <div class="background-circle">
-                        <div class="triangle-light"></div>
-                        <div class="body"></div>
-                        <span class="shirt-text">A</span>
-                        <span class="shirt-text">B</span>
-                        <span class="shirt-text">-</span>
-                        <span class="shirt-text">I</span>
-                        <span class="shirt-text">T</span>
-                        <div class="triangle-dark"></div>
+                    <div className="border-circle" id="one"></div>
+                    <div className="border-circle" id="two"></div>
+                    <div className="background-circle">
+                        <div className="triangle-light"></div>
+                        <div className="body"></div>
+                        <span className="shirt-text">A</span>
+                        <span className="shirt-text">B</span>
+                        <span className="shirt-text">-</span>
+                        <span className="shirt-text">I</span>
+                        <span className="shirt-text">T</span>
+                        <div className="triangle-dark"></div>
                     </div>
-                    <div class="head">
-                        <div class="ear" id="left"></div>
-                        <div class="ear" id="right"></div>
-                        <div class="hair-main">
-                            <div class="sideburn" id="left"></div>
-                            <div class="sideburn" id="right"></div>
-                            <div class="hair-top"></div>
+                    <div className="head">
+                        <div className="ear" id="left"></div>
+                        <div className="ear" id="right"></div>
+                        <div className="hair-main">
+                            <div className="sideburn" id="left"></div>
+                            <div className="sideburn" id="right"></div>
+                            <div className="hair-top"></div>
                         </div>
-                        <div class="face">
-                            <div class="hair-bottom"></div>
-                            <div class="nose"></div>
-                            <div class="eye-shadow" id="left">
-                                <div class="eyebrow"></div>
-                                <div class="eye"></div>
+                        <div className="face">
+                            <div className="hair-bottom"></div>
+                            <div className="nose"></div>
+                            <div className="eye-shadow" id="left">
+                                <div className="eyebrow"></div>
+                                <div className="eye"></div>
                             </div>
-                            <div class="eye-shadow" id="right">
-                                <div class="eyebrow"></div>
-                                <div class="eye"></div>
+                            <div className="eye-shadow" id="right">
+                                <div className="eyebrow"></div>
+                                <div className="eye"></div>
                             </div>
-                            <div class="mouth"></div>
-                            <div class="shadow-wrapper">
-                                <div class="shadow"></div>
+                            <div className="mouth"></div>
+                            <div className="shadow-wrapper">
+                                <div className="shadow"></div>
                             </div>
                         </div>
                     </div>
-                    <span class="music-note" id="one">&#9733;</span>
-                    <span class="music-note" id="two">&#9733;</span>
+                    <span className="music-note" id="one">&#9733;</span>
+                    <span className="music-note" id="two">&#9733;</span>
                 </div>)
     }
 }

@@ -7,6 +7,12 @@ import Who from "./components/Who";
 import MenuComp from "./components/MenuComp";
 import ContactButton from "./components/ContactButton";
 import SocialIcons from "./components/SocialIcons";
+import Contact from "./components/Contact";
+import Quote from "./components/Quote";
+import CurlyBrace from "./components/CurlyBrace";
+import ScrollDown from "./components/ScrollDown";
+import Badge from "./components/Badge";
+import HighlightedProject from "./components/HighlightedProject";
 
 
 const contact = {"contact":{
@@ -23,10 +29,15 @@ class App extends Component {
             <div className="App">
                 <MenuComp/>
                 <Hero></Hero>
+                <ScrollDown/>
                 <Services/>
+                <CurlyBrace data={{inverted:false}}/>
                 <Who></Who>
-                <ContactButton/>
-                <SocialIcons/>
+                <CurlyBrace data={{inverted:true}}/>
+                <Contact/>
+                <HighlightedProject/>
+                <Quote/>
+                <Badge/>
             </div>
         );
     }

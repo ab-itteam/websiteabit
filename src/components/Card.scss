@@ -7,7 +7,7 @@
 }
 
 //presentation
-.container {
+.cardContainer {
   position: relative;
   .page-title, .page-sub-title  {
     color: white;
@@ -31,19 +31,19 @@ $peach: #FFB88C;
 $green: #52c234;
 
 
-html {
+.cardContainer html {
   background: linear-gradient(45deg, $pink 10%, $peach 90%);
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   height: 100vh;
 }
 
-img {
+.cardContainer img {
   display: block;
   width: 100%;
   height: 50%;
 }
 
-.card-container {
+.cardContainer {
   perspective: 1000;
   margin-left : 20px;
   width: 400px;

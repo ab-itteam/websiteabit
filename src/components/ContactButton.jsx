@@ -8,7 +8,7 @@ class ContactButton extends Component {
     render() {
         return (
             <div className="ContactButtonwrapper">
-                <svg>
+                <svg style={{display: 'none'}}>
                     <defs>
                         <symbol id="icon-paperplane" viewBox="0 0 1024 1024">
                             <title>paperplane</title>
@@ -21,7 +21,7 @@ class ContactButton extends Component {
                 <a href="mailto:nick@ab-it.io" target="_blank" className="contact-button">
                     Contact
                     <svg className="icon icon-paperplane">
-                        <use xlinkHref="#icon-paperplane"></use>
+                        <use xlinkHref="#icon-paperplane"/>
                     </svg>
                     <span>nick@ab-it.io</span>
                 </a>
