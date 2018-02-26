@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './Hero.css';
-
 
 
 class Hero extends Component {
@@ -16,6 +15,7 @@ class Hero extends Component {
                     <div className="hill"></div>
                     <div className="hill3"></div>
                 </div>
+                <div className="abitLogo"/>
                 <div className="moons">
                     <div className="moon"></div>
                     <div className="moon"></div>
@@ -233,7 +233,7 @@ class Hero extends Component {
                     <div className="star"></div>
                 </div>
             </div>
-    );
+        );
     }
 }
 

@@ -6,6 +6,16 @@ body, html {
 
 }
 
+.abitLogo {
+  position: absolute;
+  z-index: 100;
+  background-image: url("../images/ab-it.svg");
+  background-size: 100%;
+  margin-left: calc((50% - 150px/2));
+  margin-top: calc((400px - 150px/2) + 50px);
+  width: 150px;
+  height: 50px;
+}
 .con {
   width:100%;
   background:#002142;
@@ -159,12 +169,12 @@ $stars:200;
   margin-top:450px;
   //margin-left:calc(50% - 500px);
   z-index:100;
-  margin-left:calc(50% - 350px);
+  margin-left:calc(50% - 450px);
 }
 
 .hill {
-  width:700px;
-  height:1000px;
+  width:800px;
+  height:1200px;
   z-index:130;
   //border:1px solid red;
   border-radius:30px;
@@ -178,8 +188,8 @@ $stars:200;
 }
 
 .hill2 {
-  width:800px;
-  height:1000px;
+  width:900px;
+  height:1200px;
   background:#002142;
   z-index:130;
   //border:1px solid red;
@@ -195,8 +205,8 @@ $stars:200;
 
 
 .hill3 {
-  width:600px;
-  height:1000px;
+  width:800px;
+  height:1200px;
   background:#002142;
   z-index:130;
   //border:1px solid red;
