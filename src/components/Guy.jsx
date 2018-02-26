@@ -29,7 +29,6 @@ class Guy extends Component {
                         <div className="hair-main">
                             <div className="sideburn" id="left"></div>
                             <div className="sideburn" id="right"></div>
-                            <div className="hair-top"></div>
                         </div>
                         <div className="face">
                             <div className="hair-bottom"></div>
