@@ -3,9 +3,6 @@ import Guy from "./Guy";
 import React from "react";
 
 class Who extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (<div>

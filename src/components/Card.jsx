@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import './Card.css';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faBook,faBuilding } from '@fortawesome/fontawesome-free-solid'
 
 
 
 class Card extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
@@ -24,8 +23,8 @@ class Card extends Component {
                             <div className="back">
                                 <h3 className="synopsis"></h3>
                                 <p>{this.props.data.content}</p>
-                                <div className="btn"><i className="fa fa-play"></i>Watch now</div>
-                                <div className="btn secondary"><i className="fa fa-heart "></i>Add to list</div>
+                                <div className="btn"><FontAwesomeIcon icon={faBook}/>Read More</div>
+                                <div className="btn secondary"><FontAwesomeIcon icon={faBuilding}/>Our Projects</div>
                             </div>
                         </div>
                     </div>

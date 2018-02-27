@@ -3,10 +3,6 @@ import './Badge.css';
 
 
 class Badge extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div>

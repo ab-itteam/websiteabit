@@ -3,9 +3,6 @@ import './Quote.css';
 
 
 class Quote extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (

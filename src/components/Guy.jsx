@@ -3,9 +3,6 @@ import './Guy.css';
 
 
 class Guy extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (

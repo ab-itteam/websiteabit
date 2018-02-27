@@ -9,7 +9,7 @@ it should always be at the center of the browser */
 .socialIconsWrapper {
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 51.7%;
   transform: translate(-50%, -50%);
   width: 550px;
 }
@@ -46,6 +46,10 @@ to align it properly */
 /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
   to icons for glowing effect and use transition property for smooth transition effect. */
 /*facebook*/
+
+.socialIconsWrapper a{
+  color: inherit;
+}
 .socialIconsWrapper ul li:hover.facebook {
   border: 5px solid #3b5998;
   box-shadow: 0 0 15px #3b5998;
@@ -66,6 +70,20 @@ to align it properly */
 }
 
 .socialIconsWrapper ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+/*telegram*/
+
+.socialIconsWrapper ul li:hover.telegram {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.socialIconsWrapper ul li:hover .fa-telegram {
   color: #00aced;
   text-shadow: 0 0 15px #00aced;
   transition: all 0.5s ease;
@@ -107,6 +125,58 @@ to align it properly */
 .socialIconsWrapper ul li:hover .fa-whatsapp {
   color: #4dc247;
   text-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+/* Medium */
+.socialIconsWrapper ul li:hover.medium {
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+.socialIconsWrapper ul li:hover .fa-medium-m {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+/* Discord */
+.socialIconsWrapper ul li:hover.discord {
+  border: 5px solid #4a24a2;
+  box-shadow: 0 0 15px #4a24a2;
+  transition: all 0.5s ease;
+}
+
+.socialIconsWrapper ul li:hover .fa-discord {
+  color: #4a24a2;
+  text-shadow: 0 0 15px #4a24a2;
+  transition: all 0.5s ease;
+}
+
+/* Slack */
+.socialIconsWrapper ul li:hover.slack {
+  border: 5px solid #ffb88c;
+  box-shadow: 0 0 15px #ffb88c;
+  transition: all 0.5s ease;
+}
+
+.socialIconsWrapper ul li:hover .fa-slack-hash {
+  color: #ffb88c;
+  text-shadow: 0 0 15px #ffb88c;
+  transition: all 0.5s ease;
+}
+
+/* Github */
+.socialIconsWrapper ul li:hover.github {
+  border: 5px solid #000000;
+  box-shadow: 0 0 15px #000000;
+  transition: all 0.5s ease;
+}
+
+.socialIconsWrapper ul li:hover .fa-github{
+  color: #000000;
+  text-shadow: 0 0 15px #000000;
   transition: all 0.5s ease;
 }
 
