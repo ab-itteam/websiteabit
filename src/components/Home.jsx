@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import NavBar from "./NavBar";
 import Hero from "./Hero";
 import ScrollDown from "./ScrollDown";
 import Services from "./Services";

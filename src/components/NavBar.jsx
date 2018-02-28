@@ -26,6 +26,8 @@ class NavBar extends Component {
                     data-scroll-header="">
                     <Link to="/" className="NavBarActive">Home</Link>
                     <Link to="/cases">Cases</Link>
+                    <Link to="/hero">Hero</Link>
+                    <Link to="/guy">Guy</Link>
                     <a href="https://medium.com/ab-it">Blog</a>
                 </nav>
             </div>)

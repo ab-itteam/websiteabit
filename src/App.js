@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Cases from "./components/cases/Cases";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
+import Guy from "./components/Guy";
 
 const history = createHistory();
 
@@ -26,6 +27,7 @@ class App extends Component {
                         <Route exact path="/" component={Home}/>
                         <Route path="/cases" component={Cases}/>
                         <Route path="/hero" component={Hero}/>
+                        <Route path="/guy" component={Guy}/>
                     </div>
                 </div>
             </Router>
