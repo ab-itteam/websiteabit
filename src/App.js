@@ -1,33 +1,35 @@
 import React, {Component} from 'react';
-import Hero from './components/Hero'
 import './App.css';
-import Services from "./components/Services";
-import Who from "./components/Who";
-import Contact from "./components/Contact";
-import Quote from "./components/Quote";
-import CurlyBrace from "./components/CurlyBrace";
-import ScrollDown from "./components/ScrollDown";
-import Badge from "./components/Badge";
-import HighlightedProject from "./components/HighlightedProject";
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import createHistory from 'history/createBrowserHistory'
+import ReactGA from 'react-ga';
+import Home from "./components/Home";
+import Cases from "./components/cases/Cases";
 import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
+
+const history = createHistory();
+
+
+ReactGA.initialize('UA-35827919-7');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
 
     render() {
         return (
-            <div className="App">
-                <NavBar/>
-                <Hero/>
-                <ScrollDown/>
-                <Services/>
-                <CurlyBrace data={{inverted: false}}/>
-                <Who/>
-                <CurlyBrace data={{inverted: true}}/>
-                <Contact/>
-                <HighlightedProject/>
-                <Quote/>
-                <Badge/>
-            </div>
+
+            <Router>
+                <div>
+                    <NavBar/>
+                    <div className="App">
+                        <Route exact path="/" component={Home}/>
+                        <Route path="/cases" component={Cases}/>
+                        <Route path="/hero" component={Hero}/>
+                    </div>
+                </div>
+            </Router>
+
         );
     }
 }
