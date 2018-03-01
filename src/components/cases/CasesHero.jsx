@@ -13,10 +13,6 @@ class CasesHero extends Component {
                         love our commitment to quality and craftmanship.</p>
                     <p>Hereby we showcase some of our interesting cases.</p>
                 </div>
-
-                <div className="otherCases">
-
-            </div>
             </div>
         )
     }
