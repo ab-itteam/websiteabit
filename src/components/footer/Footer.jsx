@@ -15,6 +15,7 @@ class Footer extends Component {
                             <li><Link to="#">LINK</Link></li>
                             <li><Link to="#">LINK</Link></li>
                             <li><Link to="#">LINK</Link></li>
+                            <li><Link to="/privacy">Privacy</Link></li>
                         </ul>
                     </div>
                     <div className="FooterOurSpecializations footerItem">

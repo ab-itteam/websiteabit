@@ -5,24 +5,15 @@ class OtherCase extends Component {
     render() {
         return (
             <div className="otherCase">
-                <a href="https://placeholder.com"><img src="http://via.placeholder.com/250x100"/></a>
-                <h2>The Project Title</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis tempor lorem, in
-                    iaculis tellus vestibulum eu. Morbi sed diam pulvinar,
-                    fringilla nisi et, euismod orci. Mauris varius luctus rhoncus. Maecenas convallis
-                    convallis ex, nec dictum purus consequat ac.
-                    In porta tortor ut orci feugiat, sit amet tempus lorem rutrum. Integer bibendum nunc
-                    eget mi ultrices aliquet. Nam efficitur ornare ma
-                    gna, eu molestie lorem faucibus vel. Mauris eleifend sapien nibh, a porta nisi posuere
-                    non. Nunc eros lacus, elementum et ante ut,
-                    dapibus dapibus ipsum. Suspendisse metus tortor, venenatis in auctor ultricies, maximus
-                    et arcu. Maecenas id sagittis nisl. Proin maximus
-                    sollicitudin sem eu viverra. Proin pharetra nisi ut arcu volutpat, vel lacinia massa
-                    tempus. Praesent at urna consequat, consequat elit pellentesque, rutrum elit.
+                <a href={this.props.data.url} target="_blank"><img src={this.props.data.image}/></a>
+                <h2>{this.props.data.title}</h2>
+                <p>
+                    {this.props.data.text}
                 </p>
                 <p>
-                    Mauris viverra fringilla velit vel varius. Aliquam et eleifend mauris.
+                    {this.props.data.conclusion}
                 </p>
+                {this.props.data.externalUrls.map((link, i) => <div><a href={link.url} key={i}>{link.text}</a> <br/></div>)}
             </div>
         )}}
         export default OtherCase;

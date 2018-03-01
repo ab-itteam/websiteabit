@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Policy.css';
 
 
 class Policy extends Component {
@@ -6,6 +7,8 @@ class Policy extends Component {
         return (
           <div className="privacyContainer">
                 <div id='ppHeader'>ab-it.io Privacy Policy</div>
+
+
                 <div id='ppBody'>
                     <div className='ppConsistencies'>
                         <div className='col-2'>
@@ -22,6 +25,7 @@ class Policy extends Component {
                             <div className="quick-links text-center">3rd Party Disclosure</div>
                         </div>
                         <div className='col-2'>
+
                             <div className="quick-links text-center">3rd Party Links</div>
                         </div>
                         <div className='col-2'></div>

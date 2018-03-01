@@ -2,8 +2,15 @@
 .otherCases {
   display: flex;
   justify-content: center;
-
+flex-wrap: wrap;
 }
 .otherCase {
-  width: 15vw;
+  width: 20vw;
+  flex-wrap: wrap;
+}
+
+.otherCase img{
+  width: 250px;
+  height: 150px;
+
 }
