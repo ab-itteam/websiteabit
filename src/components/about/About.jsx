@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './About.css'
 import AboutHero from "./AboutHero";
 import ThingsWeDo from "./ThingsWeDo";
+import FindUs from "./FindUs";
 
 
 class About extends Component {
@@ -10,6 +11,7 @@ class About extends Component {
             <div>
             <AboutHero/>
               <ThingsWeDo/>
+                <FindUs/>
             </div>
         )
     }

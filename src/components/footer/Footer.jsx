@@ -14,7 +14,7 @@ class Footer extends Component {
                         <ul>
                             <li><Link to="#">LINK</Link></li>
                             <li><Link to="#">LINK</Link></li>
-                            <li><Link to="#">LINK</Link></li>
+                            <li><Link to="/tos">TOS</Link></li>
                             <li><Link to="/privacy">Privacy</Link></li>
                         </ul>
                     </div>

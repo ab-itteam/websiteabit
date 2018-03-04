@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './Card.css';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import { faBook,faBuilding } from '@fortawesome/fontawesome-free-solid'
+import Link from "react-router-dom/es/Link";
+import TechnologiesEnum from "../enums/TechnologiesEnum";
 
 
 
@@ -23,8 +25,8 @@ class Card extends Component {
                             <div className="back">
                                 <h3 className="synopsis"></h3>
                                 <p>{this.props.data.content}</p>
-                                <div className="btn"><FontAwesomeIcon icon={faBook}/>Read More</div>
-                                <div className="btn secondary"><FontAwesomeIcon icon={faBuilding}/>Our Projects</div>
+                                <a href={this.props.data.readMoreURL}  target="_blank"> <div className="btn"><FontAwesomeIcon icon={faBook}/>Read More</div> </a>
+                                <Link to={`/cases/${TechnologiesEnum.properties[this.props.data.ourProjectsTechTag].name}`}> <div className="btn secondary"><FontAwesomeIcon icon={faBuilding}/>Our Projects</div></Link>
                             </div>
                         </div>
                     </div>

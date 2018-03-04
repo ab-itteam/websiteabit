@@ -6,13 +6,17 @@ import ReactGA from 'react-ga';
 import Home from "./components/Home";
 import Cases from "./components/cases/Cases";
 import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
 import Guy from "./components/Guy";
 import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 import Policy from "./components/privacy/Policy";
-import ScrollDown from "./components/ScrollDown";
 import ScrollToTop from "./components/routerComponents/ScrollToTop";
+import Tos from "./components/tos/Tos";
+import FilteredCases from "./components/cases/filteredCases/Cases"
+import TechnologiesEnum from "./enums/TechnologiesEnum";
+
+import { PropsRoute, PublicRoute, PrivateRoute } from 'react-router-with-props';
+
 
 const history = createHistory();
 
@@ -31,10 +35,14 @@ class App extends Component {
                     <ScrollToTop>
                     <div className="App">
                         <Route exact path="/" component={Home}/>
-                        <Route path="/cases" component={Cases}/>
+                        <Route exact path="/cases" component={Cases}/>
                         <Route path="/about" component={About}/>
                         <Route path="/guy" component={Guy}/>
                         <Route path="/privacy" component={Policy}/>
+                        <Route path="/tos" component={Tos}/>
+                        <PropsRoute exact path="/cases/ethereum" component={FilteredCases} technology= {TechnologiesEnum.ETHEREUM} />
+                        <PropsRoute exact path="/cases/nodejs" component={FilteredCases} technology= {TechnologiesEnum.NODEJS} />
+                        <PropsRoute exact path="/cases/react" component={FilteredCases} technology= {TechnologiesEnum.REACT} />
                     </div>
                     </ScrollToTop>
                     <Footer/>

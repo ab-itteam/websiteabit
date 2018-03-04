@@ -6,7 +6,7 @@ class Policy extends Component {
     render() {
         return (
           <div className="privacyContainer">
-                <div id='ppHeader'>ab-it.io Privacy Policy</div>
+              <h1>ab-it.io <em>Privacy</em> Policy</h1>
 
 
                 <div id='ppBody'>
