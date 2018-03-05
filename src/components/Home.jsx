@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import HighlightedProject from "./HighlightedProject";
 import Quote from "./Quote";
 import Badge from "./Badge";
+import {Helmet} from "react-helmet";
 
 
 class Home extends Component {
