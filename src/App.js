@@ -16,6 +16,7 @@ import FilteredCases from "./components/cases/filteredCases/Cases"
 import TechnologiesEnum from "./enums/TechnologiesEnum";
 
 import { PropsRoute, PublicRoute, PrivateRoute } from 'react-router-with-props';
+import {Helmet} from "react-helmet";
 
 
 const history = createHistory();
@@ -31,6 +32,11 @@ class App extends Component {
 
             <Router>
                 <div>
+                    <Helmet>
+                        <meta charSet="utf-8" />
+                        <title>AB-IT | Anything for Blockchain & IT</title>
+                        <link rel="canonical" href="https://ab-it.io" />
+                    </Helmet>
                     <NavBar/>
                     <ScrollToTop>
                     <div className="App">

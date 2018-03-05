@@ -20,6 +20,7 @@ import cases from './../../content/cases';
 
 import './Cases.css'
 import allCases from "../../content/cases";
+import {Helmet} from "react-helmet";
 
 
 let featuredCases = [];
@@ -43,6 +44,14 @@ class Cases extends Component {
     render() {
         return (
             <div>
+                <Helmet>
+                    <title>AB-IT | Our Showcase</title>
+                    <link rel="canonical" href="https://ab-it.io/cases" />
+                    <meta name="description" content="Our Projects based on Blockhain, NodeJs, Java, React, ..." />
+                    <meta property="og:type" content="article" />
+                    <meta property="og:url"  content="https://ab-it.io/cases" />
+                    <meta property="og:image" content="http://example.com/images/image.jpg" />
+                </Helmet>
                 <CasesHero/>
                 <div className="casesBody">
                     <div className="featuredCases">
