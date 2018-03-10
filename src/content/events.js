@@ -50,6 +50,16 @@ const event7 = {
     Solution Architects and modern business leaders who are exploring cloud solutions or are new to Google Cloud Platform.`
 };
 
+const event8 = {
+    title: "DevTalks Bucharest 2018",
+    date: new Date('2018-06-08'),
+    link: "http://www.devtalks.ro/",
+    content: `In 2018, we go even bigger! Top-notch speakers from all around the world and great community leaders will 
+    join DevTalks to be part of the largest expo-conference for software developers in Romania. Following the latest 
+    technology trends and the most requested topics from our participants, the Stages of the 2018 edition will feature: 
+    Emerging Tech, DevOps, Web & Mobile, Datafication, Automotive, Product Management, and Java.`
+};
+
 
 
 
@@ -62,6 +72,7 @@ function initializeEvents() {
     events.push(event5);
     events.push(event6);
     events.push(event7);
+    events.push(event8);
 
 
     events.sort(function(a,b){
