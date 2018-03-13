@@ -30,42 +30,6 @@ $tr-easing: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   margin-left: 50vw;
   margin-top: 200px;
 
-
-
-  &::before, &::after {
-    content: '';
-    position: absolute;
-    transition: tr(all);
-  }
-
-  &::before {
-    top: 10px;
-    left: 50%;
-    width: 5px;
-    height: 5px;
-    border-radius: 100%;
-    background-color: rgba(#fff, 0.25);
-    transform: scale(0) translateX(-50%);
-    z-index: 1;
-  }
-
-  &::after {
-    bottom: 0;
-    left: 30px;
-    right: 30px;
-    height: 0;
-    z-index: 1;
-    border-radius: 4px 4px 20px 20px;
-    background-color: #757575;
-    background-repeat: no-repeat;
-    background-size: 100px 6px, auto auto;
-    background-position: top center, top center;
-    background-image:
-            linear-gradient(to bottom, rgba(#000, 0.2) 50%, rgba(#000, 0.05) 100%),
-            linear-gradient(to bottom, rgba(#000, 0.2) 10%, transparent 15%, rgba(#000, 0.1) 68%, rgba(#000, 0.275) 73%);
-    box-shadow: 0px 3px 5px 3px transparent;
-
-  }
 }
 
 .phoneContainer .display {
@@ -121,18 +85,7 @@ $tr-easing: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
   }
 
-  &::after {
-    top: 40px;
-    bottom: 40px;
-    left: 5px;
-    right: 7px;
-    border-radius: 3px;
-    background-image:
-            linear-gradient(to left, #333 0%, #000 3px, transparent 3px),
-            radial-gradient(circle at 8px, transparent 6px, #333 6px, #333 8px, transparent 8px);
 
-    transition: tr(all);
-  }
 }
 
 .phoneContainer .viewport {
@@ -142,27 +95,6 @@ $tr-easing: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   overflow: hidden;
   background-image: url('../images/app-phone.png');
   background-size: cover;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200%;
-    transform-origin: top right;
-    transform: rotate(90deg);
-
-      background-size:
-              100% 30px,
-              20px 20px,
-              90px 90px,
-              90px 90px,
-              100px 100px,
-              calc(100% - 20px) 50px,
-              calc(100% - 60px) 50px;
-
-  }
 }
 
 .instructions {
