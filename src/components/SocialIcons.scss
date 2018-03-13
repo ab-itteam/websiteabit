@@ -1,7 +1,7 @@
 socialIconsContainer {
   background: #0A122A;
-  margin: 0;
   padding: 0;
+  margin: 0 0 120px;
 }
 
 /* Let's style the wrapper in such away that,
@@ -185,7 +185,7 @@ to align it properly */
 
 @media screen and (max-width: 640px){
   .socialIconsWrapper {
-    width: 350px;
+    width: 100%;
   }
   .socialIconsWrapper ul li{
     margin-top: 10px;

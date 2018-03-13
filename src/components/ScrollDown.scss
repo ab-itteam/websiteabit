@@ -1,3 +1,4 @@
+@import "variables";
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 
 $colorBg: #222a30;
@@ -29,6 +30,9 @@ $animDuration: 5s;
 }
 
 .ScrollDownContainer{
+  @media screen and (max-width: $break-small) {
+    display:none;
+  }
   margin-top: -20vh;
   z-index: 1200;
 }

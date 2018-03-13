@@ -15,16 +15,18 @@ class Hero extends Component {
                     <div className="hill"></div>
                     <div className="hill3"></div>
                 </div>
-                <div className="abitLogo"/>
-                <div className="moons">
-                    <div className="moon"></div>
-                    <div className="moon"></div>
-                    <div className="moon"></div>
-                    <div className="moon"></div>
-                    <div className="moon"></div>
-                    <div className="moon"></div>
-                    <div className="moon"></div>
-                    <div className="moon"></div>
+                <div className="moonLogo">
+                    <div className="abitLogo"/>
+                    <div className="moons">
+                        <div className="moon"></div>
+                        <div className="moon"></div>
+                        <div className="moon"></div>
+                        <div className="moon"></div>
+                        <div className="moon"></div>
+                        <div className="moon"></div>
+                        <div className="moon"></div>
+                        <div className="moon"></div>
+                    </div>
                 </div>
                 <div className="shoot"></div>
                 <div className="shoot"></div>

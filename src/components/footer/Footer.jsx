@@ -12,8 +12,8 @@ class Footer extends Component {
                     <div className="FooterOnThisWebsite footerItem">
                         <h2>On this website</h2>
                         <ul>
-                            <li><Link to="#">LINK</Link></li>
-                            <li><Link to="#">LINK</Link></li>
+                            <li><Link to="/about">ABOUT</Link></li>
+                            <li><Link to="/cases">CASES</Link></li>
                             <li><Link to="/tos">TOS</Link></li>
                             <li><Link to="/privacy">Privacy</Link></li>
                         </ul>
@@ -21,9 +21,9 @@ class Footer extends Component {
                     <div className="FooterOurSpecializations footerItem">
                         <h2>Our Specializations</h2>
                         <ul>
-                            <li><Link to="#">LINK</Link></li>
-                            <li><Link to="#">LINK</Link></li>
-                            <li><Link to="#">LINK</Link></li>
+                            <li><Link to="/cases/ethereum">ETHEREUM</Link></li>
+                            <li><Link to="/cases/nodejs">NODEJS</Link></li>
+                            <li><Link to="/cases/react">REACT</Link></li>
                         </ul>
                     </div>
                     <div className="FooterKeepInTouch footerItem">

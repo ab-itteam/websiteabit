@@ -17,6 +17,7 @@ import TechnologiesEnum from "./enums/TechnologiesEnum";
 
 import { PropsRoute, PublicRoute, PrivateRoute } from 'react-router-with-props';
 import {Helmet} from "react-helmet";
+import './Headings.css';
 
 
 const history = createHistory();

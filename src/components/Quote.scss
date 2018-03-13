@@ -5,14 +5,13 @@
 }
 
 .quoteContainer {
-  width: 590px;
   margin: 140px auto;
   position: relative;
 }
 
 .quoteWrapper blockquote {
-  width: 565px;
-  font: 2.65em CallunaRegular;
+  width: 100vw;
+  font: 2em CallunaRegular;
   letter-spacing: .075em;
   float: left;
   padding: 45px 0 30px 25px;
@@ -60,7 +59,7 @@
 }
 
 .quoteWrapper blockquote strong:last-child {
-  font: 2em "Museo 700";
+  font: 1.5em "Museo 700";
   text-transform: uppercase;
   letter-spacing: 0;
 }

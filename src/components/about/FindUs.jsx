@@ -29,7 +29,7 @@ class FindUs extends Component {
                     <div className="findUsEventsFuture">
                         {futureEvents.map((futureEvent, i) => <Event event={futureEvent} key={i}/>)}
                     </div>
-                    <h4>Past events</h4>
+                    <h2>Past events</h2>
                     <div className="findUsEventsPast">
                         {pastEvents.map((pastEvents, i) => <Event event={pastEvents} key={i}/>)}
                     </div>

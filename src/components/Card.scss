@@ -1,3 +1,4 @@
+@import "variables";
 //mixins
 @mixin align {
   position: absolute;
@@ -9,6 +10,10 @@
 //presentation
 .cardContainer {
   position: relative;
+  @media screen and (max-width: $break-small) {
+    float: none;
+  }
+  float: left;
   .page-title, .page-sub-title  {
     color: white;
     text-align: center;
