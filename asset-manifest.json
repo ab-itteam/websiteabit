@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c6a6c638.css",
   "main.css.map": "static/css/main.c6a6c638.css.map",
-  "main.js": "static/js/main.0360b81c.js",
-  "main.js.map": "static/js/main.0360b81c.js.map",
+  "main.js": "static/js/main.ee2b3b3b.js",
+  "main.js.map": "static/js/main.ee2b3b3b.js.map",
   "static\\media\\Bluebear.jpeg": "static/media/Bluebear.ce50874d.jpeg",
   "static\\media\\ab-it.svg": "static/media/ab-it.e8cfb4fb.svg",
   "static\\media\\afspraakmanger.png": "static/media/afspraakmanger.9b6e47ad.png",
@@ -16,6 +16,6 @@
   "static\\media\\medibib.png": "static/media/medibib.589e3ec3.png",
   "static\\media\\myosotis.png": "static/media/myosotis.18ca5c25.png",
   "static\\media\\nodejs.svg": "static/media/nodejs.673c74c0.svg",
-  "static\\media\\react.svg": "static/media/react.638be909.svg",
+  "static\\media\\react.svg": "static/media/react.911618e9.svg",
   "static\\media\\surplaceVZW.png": "static/media/surplaceVZW.7a6df8aa.png"
 }
