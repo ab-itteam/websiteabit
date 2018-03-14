@@ -31,7 +31,7 @@ class Home extends Component {
                 <CurlyBrace data={{inverted: true}}/>
                 <Contact/>
                 <HighlightedProject/>
-                <Quote/>
+
                 <Badge/>
             </div>
         )

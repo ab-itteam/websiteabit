@@ -7,11 +7,11 @@ socialIconsContainer {
 /* Let's style the wrapper in such away that,
 it should always be at the center of the browser */
 .socialIconsWrapper {
-  position: relative;
-  top: 50%;
-  left: 51.7%;
   transform: translate(-50%, -50%);
   width: 550px;
+  padding-bottom: 130px;
+  padding-top: 50px;
+  display: inline;
 }
 
 /* Style the Un-order list by setting its list-style to none */

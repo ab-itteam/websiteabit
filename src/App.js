@@ -53,7 +53,6 @@ class App extends Component {
                         <PropsRoute exact path="/cases/react" component={FilteredCases} technology= {TechnologiesEnum.REACT} />
                     </div>
                     </ScrollToTop>
-                    <Footer/>
                 </div>
             </Router>
 

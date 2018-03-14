@@ -10,9 +10,6 @@
 //presentation
 .cardContainer {
   position: relative;
-  @media screen and (max-width: $break-small) {
-    float: none;
-  }
   float: left;
   .page-title, .page-sub-title  {
     color: white;
@@ -49,9 +46,7 @@ $green: #52c234;
 }
 
 .cardContainer {
-  perspective: 1000;
-  margin-left : 20px;
-  width: 400px;
+  width: 100vw;
 }
 
 .front, .back {
@@ -82,7 +77,7 @@ $green: #52c234;
 
 .card {
   position: relative;
-  width: 400px;
+  width: 100vw;
   height: 450px;
   background: white;
   border-radius: 5px;

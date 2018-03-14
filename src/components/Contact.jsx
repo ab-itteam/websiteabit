@@ -27,7 +27,7 @@ class Contact extends Component {
         return (
             <div className="reachOut">
                 <div className="reachOutTitle">
-                    <h1><em>Reach Out</em> to us</h1>
+                    <h1><em>Reach<br/> Out</em> to us</h1>
                 </div>
                 <div className="reachOutButtons">
                     <h2>Traditional</h2>
@@ -35,11 +35,11 @@ class Contact extends Component {
                     <ContactButton data={phone}/>
                 </div>
                 <div className="reachOutChatBox">
-                    <h2> Not so traditional </h2>
+                    <div> <h2> Not so traditional </h2></div>
                     <ChatBoxIcons/>
                 </div>
                 <div className="reachOutSocialMedia">
-                    <h2> Social Media </h2>
+                    <div> <h2> Social Media </h2></div>
                     <SocialIcons/>
                 </div>
             </div>

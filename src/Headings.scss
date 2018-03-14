@@ -10,6 +10,7 @@ h1 {
   @media screen and (max-width: $break-small) {
     //float:left;
   }
+  display: inline-block;
 }
 
 h2 {
@@ -21,6 +22,8 @@ h2 {
   font-style: italic;
   letter-spacing: 0.1em;
   line-height: 2.2em;
+  display: inline-block;
+  width: 100%;
 }
 h1 em {
   font-family: "EB Garamond", serif;
