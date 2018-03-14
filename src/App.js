@@ -18,6 +18,7 @@ import TechnologiesEnum from "./enums/TechnologiesEnum";
 import { PropsRoute, PublicRoute, PrivateRoute } from 'react-router-with-props';
 import {Helmet} from "react-helmet";
 import './Headings.css';
+import MobileNavBar from "./components/mobileNavBar/MobileNavBar";
 
 
 const history = createHistory();
@@ -38,7 +39,7 @@ class App extends Component {
                         <title>AB-IT | Anything for Blockchain & IT</title>
                         <link rel="canonical" href="https://ab-it.io" />
                     </Helmet>
-                    <NavBar/>
+                    <MobileNavBar/>
                     <ScrollToTop>
                     <div className="App">
                         <Route exact path="/" component={Home}/>

@@ -16,7 +16,8 @@
     "react-helmet": "^5.2.0",
     "react-router-dom": "^4.2.2",
     "react-router-with-props": "^0.1.1",
-    "react-scripts": "^1.1.1"
+    "react-scripts": "^1.1.1",
+    "@fortawesome/fontawesome-free-solid": "latest"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",

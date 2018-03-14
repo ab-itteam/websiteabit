@@ -1,0 +1,13 @@
+.mobileNavBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: black
+}
+
+.mobileNavBar a{
+  margin-left: 10vw;
+  text-decoration: none;
+  color: white;
+}
