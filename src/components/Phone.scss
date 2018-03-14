@@ -25,10 +25,7 @@ $tr-easing: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .device {
-  transition: tr(all);
-    transform: translate(-50%,-50%) rotate(-90deg);
-  margin-left: 50vw;
-  margin-top: 200px;
+  display: inline-block;
 
 }
 
